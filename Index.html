@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya Jha | Simple Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="container navbar">
+            <!-- Logo/Name -->
+            <div class="logo">
+                <a href="#home">Bhavya Jha</a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home/Hero Section -->
+        <section id="home" class="container">
+            <div class="hero-content">
+                <!-- Profile Picture (Replaced placeholder with high-quality stock image URL) -->
+                <div class="profile-photo" style="order: 2;">
+                    <img src="/programming-background-collage.jpg"
+                        onerror="this.onerror=null;this.src='https://placehold.co/200x200/2c343f/f3f4f6?text=Profile+Pic';">
+                </div>
+
+                <!-- Text Content -->
+                <div class="hero-text" style="order: 1;">
+                    <p style="color: var(--color-accent-pink); font-weight: 500; margin-bottom: 0.5rem;">Hello, my name
+                        is</p>
+                    <h1>Bhavya Jha</h1>
+                    <h2>
+                        A Passionate <span>Web Developer</span> creating responsive and engaging websites.
+                    </h2>
+                    <p style="color: var(--color-subtle-text); max-width: 450px; margin: 0 auto 1.5rem auto;">
+                        I craft clean, semantic code using HTML and CSS to deliver beautiful and user-friendly web
+                        experiences.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="cta-primary">View My Projects</a>
+                        <a href="#contact" class="cta-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h3 class="section-title">About <span>Me</span></h3>
+                <div class="section-divider"></div>
+
+                <div class="about-content">
+                    <p>
+                        I focus on building robust digital foundations using the core technologies of the web. My goal
+                        is to translate design concepts into pixel-perfect, accessible, and high-performance websites.
+                    </p>
+                    <p>
+                        I believe in continuous improvement and utilizing best practices for structure and styling.
+                        Every project is an opportunity to deepen my understanding of layout, responsiveness, and clean
+                        code principles.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section - List with no borders/lines -->
+        <section id="skills">
+            <div class="container">
+                <h3 class="section-title">My <span>Expertise</span></h3>
+                <!-- Removed section divider -->
+
+                <ul class="skills-list">
+                    <li>Writing semantic and valid **HTML5** for page structure.</li>
+                    <li>Advanced styling using **CSS** including Flexbox and Grid.</li>
+                    <li>Creating simple, yet effective **responsive designs** for all device sizes.</li>
+                    <li>Working with colors, typography, and foundational CSS animations.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section - Removed horizontal line -->
+        <section id="projects">
+            <div class="container">
+                <h3 class="section-title">My First <span>Projects</span></h3>
+                <!-- Removed section divider -->
+
+                <div class="projects-grid">
+
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/2c343f/ff66a3?text=Blog+Layout"
+                            alt="Project 1 Screenshot">
+                        <div class="project-info">
+                            <h4>Responsive Blog Layout</h4>
+                            <p>
+                                A single-page layout focusing on correct HTML structure and CSS styling for an article,
+                                designed to look great on mobile.
+                            </p>
+                            <div class="tags">
+                                <span
+                                    style="background: #a0a0a0; color: #1f2937; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem;">HTML</span>
+                                <span
+                                    style="background: #a0a0a0; color: #1f2937; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem;">CSS</span>
+                            </div>
+                            <a href="#" target="_blank" class="project-link">
+                                View Page
+                                <span style="margin-left: 0.5rem;">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/2c343f/ff66a3?text=Tribute+Page"
+                            alt="Project 2 Screenshot">
+                        <div class="project-info">
+                            <h4>Tribute Page Design</h4>
+                            <p>
+                                A design project practicing complex image layouts, structured lists, and semantic HTML
+                                tags.
+                            </p>
+                            <div class="tags">
+                                <span
+                                    style="background: #a0a0a0; color: #1f2937; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem;">HTML</span>
+                                <span
+                                    style="background: #a0a0a0; color: #1f2937; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem;">CSS</span>
+                                <span
+                                    style="background: #a0a0a0; color: #1f2937; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem;">Responsive</span>
+                            </div>
+                            <a href="#" target="_blank" class="project-link">
+                                View Page
+                                <span style="margin-left: 0.5rem;">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/2c343f/ff66a3?text=Simple+Form"
+                            alt="Project 3 Screenshot">
+                        <div class="project-info">
+                            <h4>Custom Styled Form</h4>
+                            <p>
+                                Designing and styling a user input form, focusing on accessible labeling, custom form
+                                element styling, and usability.
+                            </p>
+                            <div class="tags">
+                                <span
+                                    style="background: #a0a0a0; color: #1f2937; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem;">HTML</span>
+                                <span
+                                    style="background: #a0a0a0; color: #1f2937; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem;">CSS</span>
+                            </div>
+                            <a href="#" target="_blank" class="project-link">
+                                See Live
+                                <span style="margin-left: 0.5rem;">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h3 class="section-title">Connect <span>With Me</span></h3>
+                <div class="section-divider"></div>
+
+                <div class="contact-content">
+                    <p>
+                        I'm eager to learn more and connect with others in the tech community!
+                    </p>
+
+                    <!-- Contact Links (Mail, LinkedIn, GitHub) -->
+                    <div class="social-links">
+
+                        <!-- Mail Link - Using SVG for icon -->
+                        <a href="mailto:bhavya.jha@example.com" target="_blank" class="social-link"
+                            aria-label="Email Bhavya Jha">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect width="20" height="16" x="2" y="4" rx="2" />
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                            </svg>
+                        </a>
+
+                        <!-- LinkedIn Link - Using SVG for icon -->
+                        <a href="https://linkedin.com/in/bhavyajha" target="_blank" class="social-link"
+                            aria-label="Bhavya Jha on LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect width="4" height="12" x="2" y="9" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+
+                        <!-- GitHub Link - Using SVG for icon -->
+                        <a href="https://github.com/bhavyajha" target="_blank" class="social-link"
+                            aria-label="Bhavya Jha on GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.44-.78-3.5.73-1.44.25-3.35-.35-4.9c-.58-.3-1.2-.5-1.87-.5c-.71 0-1.42.34-2.12 1.05-.72-.2-1.44-.3-2.22-.3c-.78 0-1.5.1-2.22.3c-.7-.7-1.4-1.05-2.12-1.05-.67 0-1.29.2-1.87.5-.6 1.55-1.08 3.46-.35 4.9-.5.5-.9 1.2-1.13 2.05-.22.85-.24 1.7-.1 2.55-.38 1.1-.03 2.3.6 3.45-3 0-6 2-6 5.5a4.8 4.8 0 0 0-1 3.5v4" />
+                                <path d="M9 18c-1.5 1-2.25 1-3.5 0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bhavya Jha. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
